@@ -52,18 +52,22 @@ git clone https://github.com/cdeistopened/ask-sam.git ~/.claude/plugins/ask-sam
 
 ## Native Plugins (Domain Skill Packs)
 
-Thematic skill bundles — not tied to a single creator. Skills documented in manifests, sourced from the root skill library.
+Thematic skill bundles — not tied to a single creator. All 8 in one repo: [**cia-native-plugins**](https://github.com/cdeistopened/cia-native-plugins)
 
-| Plugin | Skills | Repo | Domain | Status |
-|--------|--------|------|--------|--------|
-| **Business Strategy** | 21 | — | Strategy, ops, scaling | Manifest only |
-| **Podcast Production** | 15 | — | Transcript → clips → content engine | Manifest only |
-| **Publishing** | 12 | [cia-publishing-plugin](https://github.com/cdeistopened/cia-publishing-plugin) | KDP, book production | Manifest only |
-| **YouTube** | 11 | — | Scripts, titles, thumbnails, outlier analysis | Manifest only |
-| **Social Media** | 11 | [cia-social-plugin](https://github.com/cdeistopened/cia-social-plugin) | Content creation, scheduling | Manifest only |
-| **Research** | 7 | — | Deep research, competitive intel | Manifest only |
-| **SEO** | 7 | — | Search optimization, content strategy | Manifest only |
-| **Writing & Voice** | 5 | — | Voice extraction, ghostwriting | Manifest only |
+```bash
+git clone https://github.com/cdeistopened/cia-native-plugins.git ~/.claude/plugins/cia-native-plugins
+```
+
+| Plugin | Skills | Domain |
+|--------|--------|--------|
+| **business-plugin** | 21 | Strategy, ops, scaling, mental models, sales |
+| **podcast-plugin** | 15 | Transcript → clips → content engine |
+| **publishing-plugin** | 12 | KDP, book production, covers, listings |
+| **youtube-plugin** | 11 | Scripts, titles, thumbnails, outlier analysis |
+| **social-plugin** | 11 | Content creation, virality, ad creative |
+| **research-plugin** | 7 | Deep research, competitive intel, site audits |
+| **seo-plugin** | 7 | Search optimization, content strategy |
+| **writing-plugin** | 5 | Voice extraction, ghostwriting, clear prose |
 
 ---
 
@@ -114,7 +118,7 @@ Each wiki project follows the same structure:
 ## Totals
 
 - **15 creator plugins** with **261 interactive skills**
-- **8 native plugin manifests** with **89 documented skills**
+- **8 native plugins** ([cia-native-plugins](https://github.com/cdeistopened/cia-native-plugins)) with **89 skills**
 - **154 skills** in the standalone catalog
 - **11 live wiki sites**
 - **3,000+ transcripts** across all archives
