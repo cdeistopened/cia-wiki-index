@@ -1,50 +1,35 @@
-# CIA Wiki Index
+# CIA Plugin & Wiki Index
 
-Master catalog of all Creative Intelligence Agency wiki projects. Each wiki turns a creator's archive into a searchable site and an AI coaching plugin for Claude Code.
+Master catalog of all Creative Intelligence Agency plugins, wikis, and skill bundles. Each "Ask [Creator]" plugin turns a content archive into interactive AI coaching skills for Claude Code. Each wiki is the public-facing searchable site.
 
 **Website:** [creativeintel.agency](https://creativeintel.agency)
 
 ---
 
-## Live Sites
-
-| Creator | Domain | Repo | Status |
-|---------|--------|------|--------|
-| Sam Parr / MFM | [myfirstmillion.wiki](https://myfirstmillion.wiki) | [mfm-wiki](https://github.com/cdeistopened/mfm-wiki) | Live |
-| Naval Ravikant | [naval-wiki.vercel.app](https://naval-wiki.vercel.app) | [naval-wiki](https://github.com/cdeistopened/naval-wiki) | Live |
-| Alex Hormozi | [alexhormozi.wiki](https://alexhormozi.wiki) | [hormozi-wiki](https://github.com/cdeistopened/hormozi-wiki) | Live |
-| Andrew Huberman | [huberman.wiki](https://huberman.wiki) | [huberman-wiki](https://github.com/cdeistopened/huberman-wiki) | Live |
-| Lenny Rachitsky | [lennyrachitsky.wiki](https://lennyrachitsky.wiki) | [lennys-wiki](https://github.com/cdeistopened/lennys-wiki) | Live |
-| Scott Adams | [scottadams.wiki](https://scottadams.wiki) | [scott-adams-wiki](https://github.com/cdeistopened/scott-adams-wiki) | Live |
-| Balaji Srinivasan | [balaji.wiki](https://balaji.wiki) | [balaji-wiki](https://github.com/cdeistopened/balaji-wiki) | Live |
-| GaryVee | [garyvaynerchuk.wiki](https://garyvaynerchuk.wiki) | [garyvee-wiki](https://github.com/cdeistopened/garyvee-wiki) | Live |
-| KDP Kings | [kdp-kings-wiki.vercel.app](https://kdp-kings-wiki.vercel.app) | [kdp-kings-wiki](https://github.com/cdeistopened/kdp-kings-wiki) | Live |
-| Neil Patel | [neil-patel-wiki.vercel.app](https://neil-patel-wiki.vercel.app) | [neil-patel-wiki](https://github.com/cdeistopened/neil-patel-wiki) | Live |
-| MoneyWise | [moneywise-wiki.vercel.app](https://moneywise-wiki.vercel.app) | [moneywise-wiki](https://github.com/cdeistopened/moneywise-wiki) | Live |
-
-All sites built with [Quartz 4.5](https://quartz.jzhao.xyz/) and deployed on Vercel.
-
----
-
-## Claude Code Plugins
+## Creator Plugins (15 active)
 
 Install any plugin by cloning the repo and adding its path to your Claude Code settings.
 
-| Plugin | Repo | Skills | What it does |
-|--------|------|--------|-------------|
-| **Ask Sam** | [ask-sam](https://github.com/cdeistopened/ask-sam) | 18 | Business frameworks from MFM + MoneyWise (876 episodes) |
-| **Ask Naval** | [naval-wiki](https://github.com/cdeistopened/naval-wiki) | 21 | Philosophy, wealth, happiness, startups |
-| **Ask Hormozi** | [hormozi-wiki](https://github.com/cdeistopened/hormozi-wiki) | 22 | Offers, scaling, acquisition, leads |
-| **Ask Huberman** | [huberman-wiki](https://github.com/cdeistopened/huberman-wiki) | 18 | Neuroscience protocols, health optimization |
-| **Ask Lenny** | [lennys-wiki](https://github.com/cdeistopened/lennys-wiki) | 11 | Product management, growth, hiring |
-| **Ask Scott Adams** | [scott-adams-wiki](https://github.com/cdeistopened/scott-adams-wiki) | 13 | Persuasion, systems thinking, talent stacking |
-| **Ask Balaji** | [balaji-wiki](https://github.com/cdeistopened/balaji-wiki) | 16 | Network state, crypto, geopolitics |
-| **Ask GaryVee** | [garyvee-wiki](https://github.com/cdeistopened/garyvee-wiki) | 20 | Social media, personal brand, hustle |
-| **Ask KDP Kings** | [kdp-kings-wiki](https://github.com/cdeistopened/kdp-kings-wiki) | 17 | Amazon self-publishing pipeline |
-| **Ask Neil Patel** | [neil-patel-wiki](https://github.com/cdeistopened/neil-patel-wiki) | 6 | SEO, content marketing, traffic |
-| **Ask Ray Peat** | [raypeat-wiki](https://github.com/cdeistopened/raypeat-wiki) | 50 | Bioenergetic health, nutrition, hormones |
-| **Ask EndMyopia** | [endmyopia-wiki](https://github.com/cdeistopened/endmyopia-wiki) | 9 | Natural vision improvement |
-| **David Perell** | [perell-wiki](https://github.com/cdeistopened/perell-wiki) | 16 | Nonfiction writing craft (editorial passes) |
+| Plugin | Skills | Repo (plugin) | Repo (site) | Live Domain | Status |
+|--------|--------|---------------|-------------|-------------|--------|
+| **Ask Sam** | 18 | [ask-sam](https://github.com/cdeistopened/ask-sam) | [mfm-wiki](https://github.com/cdeistopened/mfm-wiki) | [myfirstmillion.wiki](https://myfirstmillion.wiki) | Live |
+| **Ask Kellblog** | 45 | — | — | — | Plugin built, no repo |
+| **Ask Hormozi** | 22 | [hormozi-wiki](https://github.com/cdeistopened/hormozi-wiki) | same | [alexhormozi.wiki](https://alexhormozi.wiki) | Live |
+| **Ask Naval** | 21 | [naval-wiki](https://github.com/cdeistopened/naval-wiki) | same | [naval-wiki.vercel.app](https://naval-wiki.vercel.app) | Live |
+| **Ask GaryVee** | 20 | [garyvee-wiki](https://github.com/cdeistopened/garyvee-wiki) | same | [garyvaynerchuk.wiki](https://garyvaynerchuk.wiki) | Live |
+| **Ask Dr. Miller** | 18 | [dr-richard-l-miller](https://github.com/cdeistopened/dr-richard-l-miller) | — | — | Plugin built |
+| **Ask Huberman** | 12 | [huberman-wiki](https://github.com/cdeistopened/huberman-wiki) | same | [huberman.wiki](https://huberman.wiki) | Live |
+| **Ask Balaji** | 16 | [balaji-wiki](https://github.com/cdeistopened/balaji-wiki) | same | [balaji.wiki](https://balaji.wiki) | Live |
+| **David Perell** | 16 | [perell-wiki](https://github.com/cdeistopened/perell-wiki) | — | — | Plugin built |
+| **Ask KDP Kings** | 15 | [kdp-kings-wiki](https://github.com/cdeistopened/kdp-kings-wiki) | same | [kdp-kings-wiki.vercel.app](https://kdp-kings-wiki.vercel.app) | Live |
+| **Ask Scott Adams** | 13 | [scott-adams-wiki](https://github.com/cdeistopened/scott-adams-wiki) | same | [scottadams.wiki](https://scottadams.wiki) | Live |
+| **Ask Matt McGarry** | 12 | [matt-mcgarry-wiki](https://github.com/cdeistopened/matt-mcgarry-wiki) | — | — | Plugin built |
+| **Ask Lenny** | 11 | [lennys-wiki](https://github.com/cdeistopened/lennys-wiki) | same | [lennyrachitsky.wiki](https://lennyrachitsky.wiki) | Live |
+| **Ask EndMyopia** | 9 | [endmyopia-wiki](https://github.com/cdeistopened/endmyopia-wiki) | — | — | Plugin built |
+| **Ask Ray Peat** | 7 | [raypeat-wiki](https://github.com/cdeistopened/raypeat-wiki) | — | [raypeatdiet.com](https://raypeatdiet.com) | Plugin built |
+| **Ask Neil Patel** | 6 | [neil-patel-wiki](https://github.com/cdeistopened/neil-patel-wiki) | same | [neil-patel-wiki.vercel.app](https://neil-patel-wiki.vercel.app) | Live |
+
+**Archived:** Ask Zakery / How to Think (10 skills) — [ask-how-to-think](https://github.com/cdeistopened/ask-how-to-think)
 
 ### Quick Install
 
@@ -67,31 +52,40 @@ git clone https://github.com/cdeistopened/ask-sam.git ~/.claude/plugins/ask-sam
 
 ## Native Plugins (Domain Skill Packs)
 
-Thematic skill bundles — not tied to a single creator.
+Thematic skill bundles — not tied to a single creator. Skills documented in manifests, sourced from the root skill library.
 
-| Plugin | Repo | Domain |
-|--------|------|--------|
-| Publishing | [cia-publishing-plugin](https://github.com/cdeistopened/cia-publishing-plugin) | KDP, book production |
-| Social | [cia-social-plugin](https://github.com/cdeistopened/cia-social-plugin) | Social media content |
-| Business | — | Business strategy |
-| Podcast | — | Podcast production |
-| Research | — | Research workflows |
-| SEO | — | Search optimization |
-| Writing | — | Writing craft |
-| YouTube | — | YouTube content |
+| Plugin | Skills | Repo | Domain | Status |
+|--------|--------|------|--------|--------|
+| **Business Strategy** | 21 | — | Strategy, ops, scaling | Manifest only |
+| **Podcast Production** | 15 | — | Transcript → clips → content engine | Manifest only |
+| **Publishing** | 12 | [cia-publishing-plugin](https://github.com/cdeistopened/cia-publishing-plugin) | KDP, book production | Manifest only |
+| **YouTube** | 11 | — | Scripts, titles, thumbnails, outlier analysis | Manifest only |
+| **Social Media** | 11 | [cia-social-plugin](https://github.com/cdeistopened/cia-social-plugin) | Content creation, scheduling | Manifest only |
+| **Research** | 7 | — | Deep research, competitive intel | Manifest only |
+| **SEO** | 7 | — | Search optimization, content strategy | Manifest only |
+| **Writing & Voice** | 5 | — | Voice extraction, ghostwriting | Manifest only |
 
 ---
 
-## Pipeline Status
+## Standalone Skill Catalog
 
-| Creator | Transcripts | Plugin | Site | Next Step |
-|---------|-------------|--------|------|-----------|
-| Dr. Richard Louis Miller | 337 | — | — | Build plugin |
-| Beekeeping | 183+ | — | — | Transcribe |
-| Kellblog | 767 posts | — | — | Framework extraction |
-| Colin & Samir | 12 | — | — | Extract frameworks |
-| Kallaway | 8 | — | — | Extract frameworks |
-| Jenny Hoyos | 5 | — | — | Extract frameworks |
+| Repo | What | Skills |
+|------|------|--------|
+| [skill-stack-skills](https://github.com/cdeistopened/skill-stack-skills) | Full catalog of all CIA-authored skills | 154 |
+
+---
+
+## Pipeline (Not Yet Plugin)
+
+| Creator | Transcripts | Site | Next Step |
+|---------|-------------|------|-----------|
+| MoneyWise (Sam Parr) | 83 | [moneywise-wiki.vercel.app](https://moneywise-wiki.vercel.app) | Merge into ask-sam |
+| RLM (Dr. Miller) | 337 | — | Build plugin (started at `clients/rlm/plugin/`) |
+| Beekeeping | 183+ | — | Transcribe |
+| Kellblog | 767 posts | — | Framework extraction |
+| Colin & Samir | 12 | — | Extract frameworks |
+| Kallaway | 8 | — | Extract frameworks |
+| Jenny Hoyos | 5 | — | Extract frameworks |
 
 ---
 
@@ -119,9 +113,11 @@ Each wiki project follows the same structure:
 
 ## Totals
 
-- **13 plugins** with **237 interactive skills**
+- **15 creator plugins** with **261 interactive skills**
+- **8 native plugin manifests** with **89 documented skills**
+- **154 skills** in the standalone catalog
 - **11 live wiki sites**
 - **3,000+ transcripts** across all archives
-- **6 creators** in the transcription pipeline
+- **7 creators** in the transcription pipeline
 
 Built by [Creative Intelligence Agency](https://creativeintel.agency).
